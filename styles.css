@@ -60,3 +60,35 @@ img {
   margin: 0 0 15px 0;
 }
 
+@media  screen and (min-width: 576px)
+  
+{
+.blue-box {
+  display: block;
+}
+.col1,   .col2{
+  width: 40%;
+  display: inline-block;
+}
+
+}
+@media (min-width: 768px)
+{
+  .main-content {
+    display: inline-block;
+  }
+  .sidebar {
+    width: 30%;
+    float: right;
+    margin-left: 25px;
+  }
+}
+@media (min-width: 932px) {
+  .col1, .col2, .col3 {
+    width: 30%
+  }
+  .col1 {
+    display: inline-block;
+  }
+  
+}
